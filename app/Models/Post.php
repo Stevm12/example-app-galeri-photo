@@ -13,7 +13,7 @@ class Post extends Model
 
     //registrasi field table posts
     protected $fillable = [
-        'id', 'title', 'description', 'category', 'user_id'
+        'id', 'title', 'description', 'category', 'user_id', 'slug'
     ];
 
 
